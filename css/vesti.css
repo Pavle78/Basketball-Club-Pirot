@@ -1,0 +1,448 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: beige;
+	    position: relative;
+}
+.header{
+	height: 200px;
+	width: 1007.2px;
+	background-color: beige;
+	position: absolute;
+	
+}
+#wrapp{
+
+}
+.box-1{
+	height: 200px;
+	width: 150px;
+	background-color: ;
+    position: relative;
+    float: left;
+    z-index: 1;
+	
+}
+.box-1 #zastava{
+	width: 150px;
+	height: 65px;
+}
+
+#grb1{
+	    width: 200px;
+    height: 190px;
+        margin-left: 0px;
+}
+
+.box-2{
+	background-color: ;
+	position: relative;
+    float: left;
+    width: auto;
+    height: auto;
+      top: 5px;
+    text-align: center;
+    left: 60px;
+}
+.box-2 h2{
+	font-size: 2.5em;
+	font-family: 'Carter One', cursive;
+	width: 320px;
+}
+.box-2 h2 strong{
+	    font-size: 2em;
+    line-height: 1;
+}
+.box-3{
+	
+	background-color: white;
+	    position: relative;
+   
+    float: left;
+    
+        display: -webkit-inline-box;
+    top: 0px;
+    height: 80px;
+        left: 200px;
+    height: 140px;
+    width: 240px;
+}
+#grb-box-3{
+	width: 100px; 
+	height: 80px;
+    margin-left: 20px;
+   
+}
+.box-3 h5{
+    margin-top: 80px;
+    margin-right: 0px;
+    border-right-width: 20px;
+    margin-left: -90px;
+}
+.box-3 p{
+	    margin-top: 80px;
+    margin-left: 30px;
+}
+.box-3 #gost{
+	    width: 100px;
+    margin-left: -10px;
+    margin-top: 0px;
+    margin-right: 0px;
+    height: 80px;
+ 
+}
+.box-3 .gost h5{
+	margin-top: -3px;
+    margin-left: 10px;
+}
+.box-3 .gost p{
+	margin-top: 100px;
+    margin-left: -200px;
+    text-align: center;
+}
+.box-3 .gost #domacinstvo{
+	margin-right: 0px;
+    margin-left: -200px;
+    margin-top: 95px;
+    text-align: center;
+}
+#domacinstvo{
+	margin-left: -220px;
+    margin-top: 100px;
+    text-align: center;
+}
+.box-4{
+	
+	position: relative;
+    float: right;
+        height: 138px;
+    
+}
+.box-4 img{
+	    height: 138px;
+}
+.box-5{
+	height: 50px;
+	
+	background-color: #a2adee;
+	position: relative;
+     top: 140px;
+         
+             margin-left: 10px;
+    margin-right: 0px;
+    right: 0px;
+    width: 997px;
+}
+.box-5 nav{
+	    float: left;
+    margin-left: 0px;
+    position: relative;
+    top: -125px;
+    left: -180px;
+}
+.box-5 nav ul li{
+	display: inline-block;
+	margin: 0 20px;
+}
+nav ul li:hover{
+	color: orange;
+	cursor: pointer;
+}
+article{
+	
+}
+article img{
+	    position: relative;
+    top: 200px;
+        width: 90%;
+            height: 400px;
+}
+
+select{
+	display: none;
+}
+
+.w3-content, .w3-display-container{
+	max-width: 980px;
+	margin:  auto;
+}
+
+.mySlides img {
+	    width: 90%;
+    margin-left: 25px;
+    z-index: -1;
+}
+.mySlides{
+	margin-left: 50px;
+}
+.mySlides p{
+
+}
+.vesti{
+	    position: relative;
+    top: 90px;
+    right: 0px;
+    left: auto;
+    margin-right: 72px;
+    margin-left: 30px;
+    background-color: rgba(81, 113, 187, 0.82);
+    color: white;
+}
+
+
+.w3-button .w3-black{
+	    float: left;
+    position: absolute;
+    right: 0px;
+    color: #fff!important;
+    background-color: #000!important;
+    height: 40px;
+    width: 40px;
+    left: 0px;
+}
+
+button .w3-button .w3-display-left{
+	    width: 48px;
+    height: 80px;
+    top: 350px;
+    margin-left: 24px;
+    position: absolute;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.75);
+    background: url('file:///C:/Users/Pavle/Desktop/Projekat/Public/img/left-arrow.png');
+}
+
+ .w3-display-right{
+	float: right;
+	    width: 48px;
+    height: 48px;
+    top: 360px;
+    margin-left: 0px;
+    position: absolute;
+    cursor: pointer;
+    background-color: rgba(134, 177, 87, 0.74);
+    right: 12px
+}
+.w3-display-left{
+	float: left;
+	   width: 48px;
+    height: 48px;
+    top: 360px;
+    margin-left: 0px;
+    position: absolute;
+    cursor: pointer;
+    background-color: rgba(134, 177, 87, 0.74);
+}
+
+
+
+.minibasket .vesti{
+	    position: absolute;
+    width: 85%;
+    left: 70px;
+    margin-right: 0px;
+    margin-left: 0px;
+    background: rgba(1, 1, 1, 0.71);
+    margin-top: 125px;
+    z-index: 25;
+    color: white;
+}
+
+*{box-sizing: border-box;}
+.mySlides{
+	display: none;
+}
+
+/* Slideshow container*/
+.slideshow-container{
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+	    z-index: -1;
+}
+
+/*Neki tekst tj., Caption text*/
+.text {
+	color: red;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+}
+
+/*Brojevi texta (1/3, 2/3, 3/3...)-Number text*/
+.numbertext{
+	color: blue;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0px;
+}
+
+.dot{
+	height: 13px;
+	width: 13px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+.active {
+	background-color: #717171;
+}
+.fade{
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+}
+
+@keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+	.text {font-size: 11px}
+}
+
+@media (max-width: 500px){
+	body{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	#wrapp{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	.header .box-1{
+		display: none;
+	}
+	.header{
+		
+
+	}
+	select{
+		display: inline-block;
+	}
+	nav ul{
+		display: none;
+	}
+	.header h2{
+		font-size: 2.8em;
+		
+	}
+	.header{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		background-color: beige;
+	}
+	article{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	article img{
+		width: 100%;
+		position: relative;
+        top: 170px;
+	}
+	html{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	.box-2{
+	height: 80px;
+    width: 180px;
+    background-color: beige;
+    position: relative;
+    float: left;
+    top: 0px;
+    margin-left: 0px;
+    left: 60px;
+    margin-right: 5px;
+	}
+	.box-3{
+	
+    right: 0px;
+    
+    left: 60px;
+    top: 0px;
+    width: 150px;
+    height: 120px;
+    background-color:rgba(181, 214, 218, 0.27);
+    display: none;
+	}
+	.box-3 img{
+		width: 50px;
+		height: 50px;
+		   
+	}
+	.box-3 p{
+		    margin-bottom: 0px;
+    margin-top: -35px;
+    margin-left: 54px;
+        font-size: 12px;
+	}
+	.box-3 #gost{
+		    margin-left: 55px;
+    margin-top: -32px;
+    font-size: 12px;
+	}
+	.box-4{
+        width: 90px;
+    height: 120px;
+    bottom: 0px;
+    top: 6px;
+    right: 0px;
+    left: 0px;
+    float: right;
+        background-repeat: no-repeat;
+	}
+	.box-4 img{
+		      height: 120px;
+    margin-top: -5px;
+          width: 89px;
+    margin-bottom: 0px;
+    
+    margin-left: 10px;
+	}
+	.box-5{
+		    top: 120px;
+		    width: 100%;
+	}
+	.gost{
+		    margin-left: 20px;
+    margin-bottom: 0px;
+    margin-top: -18px;
+	}
+	.gost h5{
+		margin-left: 50px;
+	}
+	select{
+		width: 100%;
+		position: relative;
+    	top: -120px;
+    	background-color: #fbea58;
+	}
+	#domacinstvo{
+		   margin-top: 0px;
+    margin-left: 0px;
+    text-align: center;
+	}
+
+}
